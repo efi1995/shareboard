@@ -1,0 +1,24 @@
+.task-title{
+    float: left;
+    margin-top: 8px;
+}
+
+.task-button{
+    float: right;
+    margin-top: -20px;
+}
+
+.tasks-index-title{
+    @media (max-width: 920px) {
+        margin-top :4%;        
+    }
+    @media (max-width: 700px) {
+        margin-top :6%;        
+    }
+    @media (max-width: 540px) {
+        margin-top :10%;        
+    }
+    @media (max-width: 370px) {
+        margin-top :12%;        
+    }
+}

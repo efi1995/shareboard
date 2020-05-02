@@ -1,0 +1,179 @@
+.bg-contact2{
+  background-image: url('../../img/slide6.jpg');
+}
+input {
+	outline: none;
+	border: none;
+}
+textarea {
+  outline: none;
+  border: none;
+}
+/*------------------------[ contact 2 ]--------------------------------*/
+.container-contact2 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: -webkit-linear-gradient(to left bottom,rgba(115, 149, 174, 0.9), hsla(27, 15%, 64%, 0.4));
+  background: -o-linear-gradient(to left bottom,rgba(115, 149, 174, 0.9), hsla(27, 15%, 64%, 0.4));
+  background: -moz-linear-gradient(to left bottom,rgba(115, 149, 174, 0.9), hsla(27, 15%, 64%, 0.4));
+  background: linear-gradient(to left bottom,rgba(115, 149, 174, 0.9), hsla(27, 15%, 64%, 0.4));
+}
+.wrap-contact2 {
+  width: 790px;
+  background: $whitecolor;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 72px 55px 90px 55px;
+}
+.contact2-form-title {
+  display: block;
+  font-size: 39px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 90px;
+}
+/*------------------------[ input ]------------------------------------*/
+.wrap-input2 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid $greycolor;
+  margin-bottom: 37px;
+}
+.input2 {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+}
+.focus-input2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  -webkit-transition: all 0.4s;
+  background: $redcolor;
+}
+.focus-input2::after {
+  content: attr(data-placeholder);
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  font-size: 13px;
+  color: $greycolor;
+  line-height: 1.2;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+input.input2 {
+  height: 75px;
+}
+input.input2 + .focus-input2::after {
+  top: 16px;
+  left: 0;
+}
+textarea.input2 {
+  min-height: 115px;
+  padding-top: 45px;
+  padding-bottom: 13px;
+}
+textarea.input2 + .focus-input2::after {
+  top: 16px;
+  left: 0;
+}
+.input2:focus + .focus-input2::after {
+  top: -13px;
+}
+.input2:focus + .focus-input2::before {
+  width: 100%;
+}
+.has-val.input2 + .focus-input2::after {
+  top: -13px;
+}
+.has-val.input2 + .focus-input2::before {
+  width: 100%;
+}
+/*------------------------[ button ]-----------------------------------*/
+.container-contact2-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  justify-content: center;
+}
+
+/*------------------------[ alert ]------------------------------------
+.validate-input {
+  position: relative;
+} 
+.alert-validate::before {
+  content: attr(data-validate);
+  position: absolute;
+  max-width: 70%;
+  background-color: white;
+  border: 1px solid #c80000;
+  border-radius: 2px;
+  padding: 4px 25px 4px 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0px;
+  pointer-events: none;
+  color: #c80000;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: left;
+
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+.alert-validate::after {
+  content: "\f12a";
+  display: block;
+  position: absolute;
+  color: #c80000;
+  font-size: 16px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 8px;
+}
+.alert-validate:hover:before {
+  visibility: visible;
+  opacity: 1;
+}
+@media (max-width: 992px) {
+  .alert-validate::before {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+*/

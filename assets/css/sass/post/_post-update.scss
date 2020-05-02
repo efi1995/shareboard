@@ -1,0 +1,85 @@
+.title{
+    width:100%;
+    .title-content{
+        flex: 1;
+        text-align: center;
+        margin-left: 55%;
+        transform: translateX(-50%);
+        align-items: center;
+        display: flex;
+    }
+    .title-btn{
+        flex: 1;
+        justify-content: flex-end;
+        display: flex;
+    }
+    .fs-100{
+        @media (max-width: 426px){
+            font-size:60px  !important;
+        }
+        @media (max-width: 381px){
+            font-size:40px  !important;
+            align-self: flex-end;
+        }
+    }
+    .fs-30{
+        @media (max-width: 381px){
+            font-size:20px  !important;
+        }
+    }
+}
+.post-update-container{
+    border-radius:5px;
+    background-color: #557a9517;
+    margin: 0 2% 5% 2%;
+    justify-content: space-between;
+    .post-update-child{
+        width:30%;
+        margin: 1%;
+        .title-container{
+            flex: 1;
+            text-align: right;
+            margin-left: 40%;
+            transform: translateX(-50%);
+            @media (max-width: 474px){
+                text-align: left;
+                margin-left: 0%;
+                transform: translateX(0%);
+            }
+        }
+        .status-selector-container{
+            flex: 1;
+            justify-content: flex-end;
+            display: flex;
+            .select-status{
+                .status-selector{
+                    border:1px black solid;
+                    border-radius:5px;
+                    width:100px;
+                }
+            }
+        }
+        &#status-inprogress{
+            @media (max-width: 762px){
+                display:none;
+            }
+
+        }
+        &#status-done{
+            @media (max-width: 762px){
+                display:none;
+            }
+        }
+
+        .select-status{
+            display:none;
+            @media (max-width: 762px){
+                display:flex;
+                justify-content: flex-end;    
+            }
+        }
+        @media (max-width: 762px){
+            width:100%;
+        }       
+    }    
+}

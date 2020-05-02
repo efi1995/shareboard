@@ -1,0 +1,28 @@
+@import "sass/_variables.scss";
+@import "sass/_index.scss";
+@import "sass/_portofolio.scss";
+@import "sass/_buttons.scss";
+@import "sass/_media.scss";
+@import "sass/_contact.scss";
+@import "sass/_alert.scss";
+@import "sass/_messages.scss";
+
+/*------------------------[ media ]------------------------------------*/
+@import "sass/media/_576.scss";
+@import "sass/media/_768.scss";
+@import "sass/media/_992.scss";
+@import "sass/media/_1200.scss";
+
+/*------------------------[ pages ]------------------------------------*/
+@import "sass/home/_home-main.scss";
+@import "sass/home/_home-index.scss";
+@import "sass/post/_post-index.scss";
+@import "sass/post/_post-update.scss";
+@import "sass/task/_task-update.scss";
+@import "sass/task/_task-index.scss";
+@import "sass/text-editor/_text-editor-index.scss";
+@import "sass/user/_user-login.scss";
+@import "sass/user/_user-register.scss";
+@import "sass/user/_index.scss";
+
+

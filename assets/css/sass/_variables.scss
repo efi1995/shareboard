@@ -1,0 +1,94 @@
+/*------------------------[ color ]------------------------------------*/
+$redcolor   :#77092eec !default;
+$bluecolor  :#557A95   !default;
+$greycolor  :#999999   !default;
+$whitecolor :white     !default;
+$blackcolor :black     !default;
+
+/*------------------------[ float ]------------------------------------*/
+.float-l {float: left;}
+.float-r {float: right;}
+
+/*------------------------[ padding ]----------------------------------*/
+.p-0  {padding: 0rem !important;}
+
+.p-1     {padding: 1rem        !important;}
+.p-3     {padding: 3rem        !important;}
+.p-5     {padding: 5%          !important;}
+.p-15    {padding: 15px        !important;}
+
+.pt-5    {padding-top: 5%      !important;}
+.pt-6    {padding-top: 6px     !important;}
+.pt-10   {padding-top: 10%     !important;}
+.pt-10px {padding-top: 10px    !important;}
+.pt-100  {padding-top: 100px   !important;}
+
+.pr-10   {padding-right: 10px  !important;}
+.pr-5    {padding-right: 5px   !important;}
+
+.pb-4    {padding-bottom: 4rem !important;}
+
+.pl-5    {padding-left: 5px    !important;}
+
+/*------------------------[ margin ]-----------------------------------*/
+.m-0     {margin: 0          !important;}
+
+.m-1     {margin: 0.25rem    !important;}
+
+.mt-0    {margin-top: 0      !important;}
+.mt-4    {margin-top: 4px    !important;}
+
+.mr-2    {margin-right: 2%   !important;}
+
+.mb-4    {margin-bottom: 4%  !important;}
+
+.ml-6    {margin-left: 6px   !important;}
+
+.mr-auto {margin-right: auto !important;}
+.ml-auto {margin-left: auto  !important;}
+
+/*------------------------[ height ]-----------------------------------*/
+.h-2   {height: 2%    !important;}
+.h-100 {height: 100%  !important;}
+.h-400 {height: 400px !important;}
+
+/*------------------------[ font-size ]--------------------------------*/
+.fs-30  {font-size:30px  !important;}
+.fs-41  {font-size:41px  !important;}
+.fs-43  {font-size:43px  !important;}
+.fs-50  {font-size:50px  !important;}
+.fs-80  {font-size:80px  !important;}
+.fs-100 {font-size:100px !important;}
+
+/*------------------------[ text ]-------------------------------------*/
+.text-center       {text-align: center        !important;}
+.text-uppercase    {text-transform: uppercase !important;}
+.font-weight-light {font-weight: 300          !important;}
+.font-weight-bold  {font-weight: 700          !important;}
+.text-white        {color: $whitecolor        !important;}
+.text-primary      {color: $redcolor          !important;}
+.text-red          {color: $redcolor          !important;}
+.text-break {
+  word-break:    break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+/*------------------------[ line ]-------------------------------------*/
+.lh-3 {line-height:3 !important;}
+
+/*------------------------[ visible ]----------------------------------*/
+.visible   {visibility: visible !important;}
+.invisible {visibility: hidden  !important;}
+
+/*------------------------[ variables ]--------------------------------*/
+.justify-content-center { 
+  display:flex; 
+  justify-content: center !important;
+}
+.align-self-end         {align-self: flex-end    !important;}
+
+/*------------------------[ display ]----------------------------------*/
+.dis-none {display: none !important;}
+
+/*------------------------[ overflow ]---------------------------------*/
+.over-y-hidden {overflow-y: hidden !important;}

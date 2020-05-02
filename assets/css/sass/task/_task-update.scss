@@ -1,0 +1,72 @@
+.hr{
+    width:53%;
+    margin-left:0px;
+}
+.textarea-update{
+    width:91%;
+    height:140px;
+}
+.dropdown-details{
+    background-color: $whitecolor;
+    color: $blackcolor;
+    border: none;
+}
+.efi:focus{
+    border: 1px black solid;
+    border-radius: 5px;
+
+}
+.efi:hover{
+    border: 1px black solid;
+    border-radius: 5px;
+
+}
+
+th{
+    width:100px;
+}
+.dropdown-content{
+    margin-left:20px;
+    margin-top:10px;
+}
+.dd-people{
+    border-left:1px solid #eee;
+}
+.dd-inputs{
+    border:1px black solid;
+    border-radius:5px;
+}
+.comment{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 50%;
+  border:1px black solid;
+  float:left;
+  margin: 20px 20px 0 25px;
+}
+
+.bubble_profile{
+    position: relative;
+    border: 1px solid #dbdbdbc5;
+    border-radius: 5px;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 5px;
+  
+    .add-comment-txt{
+        width:100%;
+        height:100px;
+        margin-bottom:5px;
+    }
+}
+
+#details{
+    .details{
+        border:1px black solid;
+        border-radius:5px;
+        width:100px;
+    }
+}
