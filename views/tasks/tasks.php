@@ -4,6 +4,7 @@
 		$tasks = $viewmodel[1];
 		foreach($tasks as $open_tasks) : 
 	?>
+	
 	<div class="">
 		<form method="post" action="<?php $_SERVER['PHP_SELF'];?>">
 			<input type="hidden" name="Task_edit_id" value="<?php echo $open_tasks['task_id'];?>">

@@ -41,7 +41,7 @@
 			</div>
 			<div class="col-sm-1">
 		</div>
-			<div class="col-sm-6	">
+			<div class="col-sm-6">
 				<div class="tab-content">
 					<div class="tab-pane active" id="home" style="margin-top:50px;">
 						<hr>
