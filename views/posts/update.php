@@ -149,16 +149,10 @@
 		</div>
 	</div>	
 </div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
-<div class="col-lg-3 col-md-6 text-center services">
-                <div class="mt-5">
-                <i class="fas fa-4x fa-clipboard text-primary mb-4"></i>
-                <h3 class="h4 mb-2">Sturdy Project</h3>
-                <p class="text-muted mb-0">Our project is updated regularly to keep them bug free!</p>
-                </div>
-            </div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
 <script>
 	var $window = $(window);
 
